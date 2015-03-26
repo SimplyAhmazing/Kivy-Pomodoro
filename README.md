@@ -1,10 +1,10 @@
-This is a simple Pomodoro app I setup as an execuse to start playing with the Kivy GUI framework. I've found [Kivy] to be interesting and simple to use.
+This is a simple Pomodoro app I setup as an execuse to start playing with the [Kivy] GUI framework. I've found [Kivy] to be interesting and simple to use.
 
 
-To run the app, set up `python 2.7.9` and `kivy 1.8.0` and the src dir run,
+To run the app, install `python 2.7.9` and `kivy 1.8.0`. Then from the src dir run,
 
 ```
-kivy maing.py
+kivy main.py
 ```
 
 ## Screenshot
