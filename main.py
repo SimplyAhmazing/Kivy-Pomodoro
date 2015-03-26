@@ -19,8 +19,7 @@ logger = logging.getLogger('')
 
 # Work, Break, & Long break times in mins
 TIME_DEFS = {'W': 25, 'B': 5, 'LB': 15}
-TIME_DEFS = {'W': 2, 'B': 1, 'LB': 3}
-SCREEN_REFRESH_FREQ = 1
+SCREEN_REFRESH_FREQ = 1  # Can be used to speed up clock for dev
 
 
 class Timer(Widget):
