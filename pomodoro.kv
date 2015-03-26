@@ -1,0 +1,38 @@
+<Timer>:
+    width: 400
+    height: 400
+    canvas.before:
+        Color:
+            rgba: 0, 0, 0, 1
+        Rectangle:
+            # self here refers to the widget i.e FloatLayout
+            pos: self.pos
+            size: self.size
+
+    display_time:display_time
+    display_bar:display_bar
+    Label:
+        id: display_time
+        font_size: 84
+        text: "Time Goes Here.."
+        center_x: root.width / 2
+        center_y: root.height * .8
+    ProgressBar:
+        id: display_bar
+        width: root.width * .55
+        height: 20
+        value: 0
+        max: 100
+        center_x: root.width * .5
+        center_y: root.height * .5
+
+<Controls>:
+    control_btn: control_btn
+    Button:
+        id: control_btn
+        text: "Start"
+        width: root.width * .6
+        height: 40
+        center_x: root.width / 2
+        center_y: root.height * .20
+        on_press: root.btn_pressed()

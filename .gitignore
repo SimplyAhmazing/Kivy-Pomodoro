@@ -1,0 +1,114 @@
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pot
+*.py[cod]
+
+# Python packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+__pycache__
+
+# Compressed files
+# (commit raw files, allow git to compress things)
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+pip-log.txt
+
+# OS X junk
+.DS_Store
+Icon
+.AppleDouble
+.LSOverride
+
+# OS X Thumbnails
+._*
+
+# OS X files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Windows folder config file
+Desktop.ini
+
+# Windows Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Linux hidden and temporary files
+# (un-ignore what's actually important to include)
+.*
+!.gitignore
+!.node-version
+!.python-version
+*~
+
+# Virtualenv
+.Python
+bin/
+build*/
+include/
+lib/
+share/
+src*/
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Local development files
+.vagrant
+cookbooks/
+tmp/
+
+# Project files
+public/*
+!public/.gitkeep
+
+# Behave testing files
+screen_shots/*
+*.log # Ignore tracking of 'ghostdriver.log' files created by selenium
+
+# Uploaded Campaign Templates Images
+media/*
+
+# PyCharm specific files
+.idea/
+
+# SourceTree backup files
+*.orig
